@@ -15,6 +15,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  base: 'https://github.com/lalala3006/lalalaTest.git' // 替换为你的 GitHub 仓库名
+//   base: 'https://github.com/lalala3006/lalalaTest.git' // 替换为你的 GitHub 仓库名
+base: '/lalalaTest/',
 })
 
